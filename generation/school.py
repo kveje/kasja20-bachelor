@@ -164,7 +164,7 @@ class School:
         if self.group_counter[group] == self.group_max:
             self.groups.remove(group)
 
-    def export_school(self, name: str):
+    def export_school(self):
         pass
 
     def __repr__(self) -> str:
