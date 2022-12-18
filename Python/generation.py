@@ -1,4 +1,4 @@
-from school import School
+from classes.school import School
 
 if __name__ == "__main__":
     # Information regarding the students

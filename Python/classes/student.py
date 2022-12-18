@@ -15,3 +15,13 @@ class Student:
         return "Id: {}, Gender: {}, Class: {}, Group: {}, SecondYear: {}".format(
             self.id, self.gender, self.school_class, self.group, self.second_year
         )
+
+    def get(self) -> dict:
+        return {
+            "id": self.id,
+            "gender": self.gender,
+            "postal_code": self.postal_code,
+            "school_class": self.school_class,
+            "group": self.group,
+            "second_year": self.second_year,
+        }
